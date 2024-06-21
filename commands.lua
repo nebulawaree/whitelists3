@@ -1,5 +1,5 @@
 local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/nebulawaree/whitelists3
-/main/Whitelist", true))()
+/main/whitelist", true))()
 
 local RunSerive = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
@@ -66,7 +66,7 @@ task.spawn(function()
 													table.unpack(MessageData.ExtraData.Tags),
 													{
 														TagColor = Color3.new(1, 0.3, 0.3),
-														TagText = "REKTSKY OWNER"
+														TagText = "NEBULAWARE OWNER"
 													}
 												}
 											}
@@ -80,7 +80,7 @@ task.spawn(function()
 													table.unpack(MessageData.ExtraData.Tags),
 													{
 														TagColor = Color3.new(0.7, 0, 1),
-														TagText = "REKTSKY PRIVATE"
+														TagText = "NEBULAWARE PRIVATE"
 													}
 												}
 											}
